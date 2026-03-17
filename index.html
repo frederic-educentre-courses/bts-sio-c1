@@ -224,12 +224,49 @@ body {
 						<p>Basic concepts in JavaScript include variables (used to store data), data types (such as strings, numbers, and booleans), and control structures (like if statements and loops).</p>
 					</section>
 					<section>
+						<h2>Example of JavaScript Basic Concepts</h2>
+						<pre><code>// Variable declaration
+let name = "Alice"; // string
+let age = 30; // number
+let isStudent = true; // boolean
+// Control structure: if statement
+if (age > 18) {
+	console.log(name + " is an adult.");
+} else {
+	console.log(name + " is a minor.");
+}</code></pre>
+					</section>
+					<section>
 						<h2>3B. JavaScript: functions</h2>
 						<p>Functions in JavaScript are reusable blocks of code that perform a specific task. They can take parameters and return values. Variable scope refers to the accessibility of variables within different parts of the code, while anonymous functions are functions without a name, often used as callbacks.</p>
 					</section>
 					<section>
+						<h2>Example of JavaScript Functions</h2>
+						<pre><code>// Function declaration
+function greet(name) {
+	return "Hello, " + name + "!";
+}
+// Anonymous function assigned to a variable
+let greetAnonymous = function(name) {
+	return "Hi, " + name + "!";
+};
+// Using the functions
+console.log(greet("Alice")); // Output: Hello, Alice!
+console.log(greetAnonymous("Bob")); // Output: Hi, Bob!</code></pre>
+					</section>
+					<section>
 						<h2>3C. JavaScript: events and DOM manipulation</h2>
 						<p>JavaScript allows developers to handle events (such as clicks, mouse movements, and keyboard input) and manipulate the DOM to create dynamic web pages. This can be done using methods like <code>addEventListener</code> and properties like <code>innerHTML</code>.</p>
+					</section>
+					<section>
+						<h2>Example of JavaScript Events and DOM Manipulation</h2>
+						<pre><code>// Adding an event listener to a button
+let button = document.getElementById("myButton");
+button.addEventListener("click", function() {
+	// Changing the content of a div when the button is clicked
+	let div = document.getElementById("myDiv");
+	div.innerHTML = "Button was clicked!";
+});</code></pre>
 					</section>
 				</section>
 				<section>
