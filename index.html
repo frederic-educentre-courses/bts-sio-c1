@@ -7,7 +7,7 @@
 			content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no"
 		/>
 
-		<title>reveal.js</title>
+		<title>BTS SIO - C1: Recenser et identifier les ressources numériques</title>
 
 		<link rel="stylesheet" href="dist/reset.css" />
 		<link rel="stylesheet" href="dist/reveal.css" />
@@ -20,280 +20,73 @@
 		<div class="reveal">
 			<div class="slides">
 				<section>
-					<h1>Web programming</h1>
+					<h2>C1: Recenser et identifier les ressources numériques</h2>
 				</section>
 				<section>
 					<section>
-						<h2>1. Introduction to the Web</h2>
+						<h2>Ressources numériques</h2>
 						<ul>
-							<li>A. History of the Web</li>
-							<li>B. Client-server architecture</li>
-							<li>C. Static vs. dynamic web</li>
-							<li>D. The difference between the front-end and the back-end</li>
-							<li>E. Website editors, frameworks, and CMS</li>
+							<li>Ressources matérielles</li>
+							<li>Ressources logicielles</li>
 						</ul>
 					</section>
 					<section>
-						<h2>1A. History of the Web</h2>
-						<p>The World Wide Web was invented by Tim Berners-Lee in 1989 while working at CERN.</p>
-						<p>It was designed to facilitate the sharing of information among researchers.</p>
-						<p>The first website was launched in 1991, and the web has since evolved into a global platform for communication, commerce, and entertainment.</p>
+						<h2>Ressources matérielles</h2>
+						<p>Les ressources matérielles sont les composants physiques d'un système informatique.</p>
+						<ul>
+							<li>Ordinateurs</li>
+							<li>Serveurs</li>
+							<li>Réseaux</li>
+							<li>Périphériques</li>
+						</ul>
 					</section>
 					<section>
-						<h2>1B. Client-server architecture</h2>
-						<p>In a client-server architecture, the client (usually a web browser) sends requests to a server, which processes the requests and returns responses.</p>
-						<p>The server hosts the website's files and handles tasks such as data storage, processing, and security.</p>
-						<p>This architecture allows for efficient resource management and scalability.</p>
-					</section>
-					<section>
-						<h2>1C. Static vs. dynamic web</h2>
-						<p>Static websites are built with HTML and CSS, and the content is fixed.</p>
-						<p>Dynamic websites use server-side scripting to generate content on-the-fly. PHP, Python, and Node.js are popular choices for creating dynamic websites.</p>
-					</section>
-					<section>
-						<h2>1D. The difference between the front-end and the back-end</h2>
-						<p>The front-end refers to the part of a website that users interact with directly, including the design, layout, and user interface.</p>
-						<p>The back-end refers to the server-side of a website, which handles data storage, processing, and business logic.</p>
-					</section>
-					<section>
-						<h2>1E. Website editors, frameworks, and CMS</h2>
-						<p>Website editors are tools that allow users to create and manage website content without needing to write code. Examples : Wix.</p>
-						<p>Frameworks are pre-built libraries that provide a structure for developing websites. Examples include React, Angular, and Vue.js.</p>
-						<p>Content Management Systems (CMS) are software applications that allow users to create, manage, and modify website content without needing technical knowledge. Examples include WordPress, Joomla, and Drupal.</p>
+						<h2>Ressources logicielles</h2>
+						<p>Les ressources logicielles sont les programmes et les données qui permettent le fonctionnement d'un système informatique.</p>
+						<ul>
+							<li>Systèmes d'exploitation</li>
+							<li>Applications</li>
+							<li>Outils de développement</li>
+							<li>Services en ligne</li>
+						</ul>
 					</section>
 				</section>
 				<section>
 					<section>
-						<h2>2. The basics of HTML5 & CSS3 development</h2>
+						<h2>Recensement ?</h2>
+						<p>Le recensement des ressources numériques consiste à identifier et à documenter toutes les ressources informatiques d'une organisation.</p>
+					</section>
+					<section>
+						<p>Il est important de recenser les ressources numériques pour:</p>
 						<ul>
-							<li>A. HTML: presentation</li>
-							<li>B. HTML: DOM</li>
-							<li>C. HTML: structuring an HTML page</li>
-							<li>D. HTML: concept of tags</li>
-							<li>E. CSS: presentation</li>
-							<li>F. CSS: selector types</li>
-							<li>G. CSS: properties</li>
-							<li>H. CSS: responsive design</li>
+							<li>Gérer les actifs informatiques</li>
+							<li>Assurer la sécurité</li>
+							<li>Optimiser les performances</li>
+							<li>Planifier les évolutions</li>
 						</ul>
 					</section>
 					<section>
-						<h2>2A. HTML: presentation</h2>
-						<p>HTML (HyperText Markup Language) is the standard language for creating web pages. It uses tags to structure content and define elements such as headings, paragraphs, links, and images.</p>
-						<p>HTML5 is the latest version of HTML, which includes new features such as semantic elements, multimedia support, and improved form controls.</p>
-					</section>
-					<section>
-						<h2>2B. HTML: DOM</h2>
-						<p>The Document Object Model (DOM) is a programming interface for HTML and XML documents. It represents the structure of a document as a tree of objects, allowing developers to manipulate the content and structure of a web page dynamically using JavaScript.</p>
-					</section>
-					<section>
-						<h2>2C. HTML: structuring an HTML page</h2>
-						<p>An HTML page is structured using various elements such as <code>&lt;head&gt;</code>, <code>&lt;body&gt;</code>, <code>&lt;header&gt;</code>, <code>&lt;nav&gt;</code>, <code>&lt;main&gt;</code>, and <code>&lt;footer&gt;</code>. These elements help organize content and improve accessibility.</p>
-					</section>
-					<section>
-						<h2>Example of HTML Structure</h2>
-						<pre><code>&lt;!DOCTYPE html&gt;
-&lt;html lang="en"&gt;
-&lt;!-- the head section is for metadata and links --&gt;
-&lt;head&gt;
-    &lt;meta charset="UTF-8"&gt;
-    &lt;meta name="viewport" content="width=device-width, initial-scale=1.0"&gt;
-    &lt;title&gt;Document&lt;/title&gt;
-&lt;/head&gt;
-&lt;!-- the body section is for content that will be displayed on the page --&gt;
-&lt;body&gt;
-	&lt;!-- the header section typically contains the website's title and navigation --&gt;
-    &lt;header&gt;
-        &lt;h1&gt;My Website&lt;/h1&gt;
-    &lt;/header&gt;
-	&lt;!-- the nav section contains links to different parts of the website --&gt;
-    &lt;nav&gt;
-        &lt;ul&gt;
-            &lt;li&gt;&lt;a href="#"&gt;Home&lt;/a&gt;&lt;/li&gt;
-            &lt;li&gt;&lt;a href="#"&gt;About&lt;/a&gt;&lt;/li&gt;
-        &lt;/ul&gt;
-    &lt;/nav&gt;
-	&lt;!-- the main section contains the primary content of the page --&gt;
-    &lt;main&gt;
-        &lt;p&gt;This is the main content of the page.&lt;/p&gt;
-    &lt;/main&gt;
-	&lt;!-- the footer section typically contains copyright information and links to legal pages --&gt;
-    &lt;footer&gt;
-        &lt;p&gt;&copy; 2023 My Website. All rights reserved.&lt;/p&gt;
-    &lt;/footer&gt;
-&lt;/body&gt;
-&lt;/html&gt;</code></pre>
-					</section>
-					<section>
-						<h2>2D. HTML: concept of tags</h2>
-						<p>HTML tags are the building blocks of an HTML document. They are used to define the structure and content of a web page.</p>
-						<p>Tags are typically enclosed in angle brackets, such as <code>&lt;h1&gt;</code> for a heading or <code>&lt;p&gt;</code> for a paragraph. Some tags have attributes that provide additional information about the element, such as <code>&lt;a href="https://example.com"&gt;</code> for a hyperlink.</p>
-					</section>
-					<section>
-						<h2>Example of HTML Tags</h2>
-						<pre><code>&lt;!DOCTYPE html&gt;
-&lt;html lang="en"&gt;
-&lt;head&gt;
-    &lt;meta charset="UTF-8"&gt;
-    &lt;meta name="viewport" content="width=device-width, initial-scale=1.0"&gt;
-    &lt;title&gt;Document&lt;/title&gt;
-&lt;/head&gt;
-&lt;body&gt;
-	&lt;!-- h1 is a heading tag, and p is a paragraph tag --&gt;
-    &lt;h1&gt;My Website&lt;/h1&gt;
-	&lt;!-- p is a paragraph tag that contains text content --&gt;
-    &lt;p&gt;This is a paragraph.&lt;/p&gt;
-&lt;/body&gt;
-&lt;/html&gt;</code></pre>
-					</section>
-					<section>
-						<h2>2E. CSS: presentation</h2>
-						<p>CSS (Cascading Style Sheets) is a stylesheet language used to describe the presentation of a web page. It allows developers to control the layout, colors, fonts, and overall appearance of a website.</p>
-						<p>CSS3 is the latest version of CSS, which includes new features such as animations, transitions, and improved layout capabilities.</p>
-					</section>
-					<section>
-						<h2>2F. CSS: selector types</h2>
-						<p>CSS selectors are used to target HTML elements and apply styles to them. Common selector types include element selectors (e.g., <code>p</code>), class selectors (e.g., <code>.class-name</code>), and ID selectors (e.g., <code>#id-name</code>).</p>
-					</section>
-					<section>
-						<h2>Example of CSS Selectors</h2>
-						<pre><code>/* element selector */
-p {
-    color: blue;
-}
-
-/* class selector */
-.class-name {
-    font-weight: bold;
-}
-
-/* ID selector */
-#id-name {
-    background-color: yellow;
-}</code></pre>
-					</section>
-					<section>
-						<h2>2G. CSS: properties</h2>
-						<p>CSS properties define the specific styles to be applied to elements. Examples include <code>color</code>, <code>font-size</code>, <code>margin</code>, and <code>padding</code>.</p>
-					</section>
-					<section>
-						<h2>Example of CSS Properties</h2>
-						<pre><code>p {
-	color: blue; /* sets the text color to blue */
-	font-size: 16px; /* sets the font size to 16 pixels */
-	margin: 10px; /* sets the margin around the element to 10 pixels */
-	padding: 5px; /* sets the padding inside the element to 5 pixels */
-}</code></pre>
-					</section>
-					<section>
-						<h2>2H. CSS: responsive design</h2>
-						<p>Responsive design is an approach to web design that ensures a website looks and functions well on various devices and screen sizes. It typically involves using flexible layouts, media queries, and scalable images to create a seamless user experience across different platforms.</p>
-					</section>
-					<section>
-						<h2>Example of Responsive Design with CSS</h2>
-						<pre><code>/* Base styles for all devices */
-body {
-	font-family: Arial, sans-serif;
-}
-
-.container {
-	width: 100%;
-	padding: 20px;
-}
-
-/* Styles for screens larger than 600px */
-@media (min-width: 600px) {
-	.container {
-		width: 80%;
-		margin: 0 auto;
-	}
-}</code></pre>
+						<p>L'identification des ressources numériques permet de:</p>
+						<ul>
+							<li>Assurer la traçabilité</li>
+							<li>Faciliter la maintenance</li>
+							<li>Améliorer la gestion des incidents</li>
+							<li>Optimiser les coûts</li>
+						</ul>
 					</section>
 				</section>
 				<section>
 					<section>
-						<h2>3. The basics of JavaScript development</h2>
-						<ul>
-							<li>A. JavaScript: basic concepts (variables, data types, control structures)</li>
-							<li>B. JavaScript: functions (presentation, variable scope, anonymous functions)</li>
-							<li>C. JavaScript: events and DOM manipulation</li>
-						</ul>
+						<h2>GLPI</h2>
+						<p>GLPI est un outil de gestion de parc informatique qui permet de recenser et d'identifier les ressources numériques.</p>
 					</section>
 					<section>
-						<h2>3A. JavaScript: basic concepts</h2>
-						<p>JavaScript is a programming language used to create interactive and dynamic web content. It allows developers to manipulate the DOM, handle events, and perform various tasks on the client-side.</p>
-						<p>Basic concepts in JavaScript include variables (used to store data), data types (such as strings, numbers, and booleans), and control structures (like if statements and loops).</p>
+						<h2>Installation de GLPI</h2>
+						<p>GLPI est un programme open-source écrit en PHP qui a besoin d'un serveur web et d'une base de données.</p>
 					</section>
 					<section>
-						<h2>Example of JavaScript Basic Concepts</h2>
-						<pre><code>// Variable declaration
-let name = "Alice"; // string
-let age = 30; // number
-let isStudent = true; // boolean
-// Control structure: if statement
-if (age > 18) {
-	console.log(name + " is an adult.");
-} else {
-	console.log(name + " is a minor.");
-}</code></pre>
-					</section>
-					<section>
-						<h2>3B. JavaScript: functions</h2>
-						<p>Functions in JavaScript are reusable blocks of code that perform a specific task. They can take parameters and return values. Variable scope refers to the accessibility of variables within different parts of the code, while anonymous functions are functions without a name, often used as callbacks.</p>
-					</section>
-					<section>
-						<h2>Example of JavaScript Functions</h2>
-						<pre><code>// Function declaration
-function greet(name) {
-	return "Hello, " + name + "!";
-}
-// Anonymous function assigned to a variable
-let greetAnonymous = function(name) {
-	return "Hi, " + name + "!";
-};
-// Using the functions
-console.log(greet("Alice")); // Output: Hello, Alice!
-console.log(greetAnonymous("Bob")); // Output: Hi, Bob!</code></pre>
-					</section>
-					<section>
-						<h2>3C. JavaScript: events and DOM manipulation</h2>
-						<p>JavaScript allows developers to handle events (such as clicks, mouse movements, and keyboard input) and manipulate the DOM to create dynamic web pages. This can be done using methods like <code>addEventListener</code> and properties like <code>innerHTML</code>.</p>
-					</section>
-					<section>
-						<h2>Example of JavaScript Events and DOM Manipulation</h2>
-						<pre><code>// Adding an event listener to a button
-let button = document.getElementById("myButton");
-button.addEventListener("click", function() {
-	// Changing the content of a div when the button is clicked
-	let div = document.getElementById("myDiv");
-	div.innerHTML = "Button was clicked!";
-});</code></pre>
-					</section>
-				</section>
-				<section>
-					<section>
-						<h2>4. Advanced JavaScript</h2>
-						<ul>
-							<li>A. JavaScript objects</li>
-							<li>B. JSON: Objects and files</li>
-							<li>C. Arrays of objects</li>
-							<li>D. Storage: localStorage and SessionStorage</li>
-						</ul>
-					</section>
-					<section>
-						<h2>4A. JavaScript objects</h2>
-						<p>JavaScript objects are collections of key-value pairs that can represent complex data structures. They can contain properties and methods, allowing developers to model real-world entities and behaviors.</p>
-					</section>
-					<section>
-						<h2>4B. JSON: Objects and files</h2>
-						<p>JSON (JavaScript Object Notation) is a lightweight data interchange format that is easy for humans to read and write, and easy for machines to parse and generate. It is commonly used for transmitting data between a server and a web application.</p>
-					</section>
-					<section>
-						<h2>4C. Arrays of objects</h2>
-						<p>Arrays of objects are a common data structure in JavaScript, where an array contains multiple objects. This allows developers to store and manipulate collections of related data efficiently.</p>
-					</section>
-					<section>
-						<h2>4D. Storage: localStorage and SessionStorage</h2>
-						<p>localStorage and SessionStorage are web storage APIs that allow developers to store data in the browser. localStorage provides persistent storage that remains even after the browser is closed, while SessionStorage provides temporary storage that is cleared when the browser session ends.</p>
+						<h2>Recensement avec les agents GLPI</h2>
+						<p>GLPI propose des agents qui peuvent être installés sur les machines pour collecter des informations sur les ressources matérielles et logicielles.</p>
 					</section>
 				</section>
 			</div>
